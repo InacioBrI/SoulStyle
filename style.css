@@ -622,10 +622,21 @@ button.white{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/Capa-home.png");
+    background-image: url("banner-newlatter.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: #170353
+    background-color: #260606;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffff;
+}
+#newsletter p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
 }
 
 
