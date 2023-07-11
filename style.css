@@ -45,7 +45,8 @@ p{
     display: flex;
 }
 .section-m1{
-    padding: 40px 80px;
+    padding: 50px 100px;
+    margin: 2%;
 }
 body{
     width: 100%;
