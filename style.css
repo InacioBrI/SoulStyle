@@ -562,7 +562,7 @@ button.white{
     
     
     #pm-banner .banner-box{
-    background-image: url("Banner-feminino.png");
+    background-image: url("acessorios-banner.png");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -577,7 +577,7 @@ button.white{
     }
     
     #pm-banner .banner-box2{
-        background-image: url("Banner-Masculino.png");
+        background-image: url("moveis-banner.png");
     }
     
     #pm-banner h4{
@@ -617,7 +617,16 @@ button.white{
         border: 1px solid #820404ac;
     }
 
-
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/Capa-home.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #170353
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
