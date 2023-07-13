@@ -672,6 +672,52 @@ button.white{
     width: 50%
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+
+footer .logo{
+    margin-bottom: 0px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 10px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 0px;
+}
+
+footer .follow{
+    margin-top: 20px
+}
+
+footer .follow i{
+    color: #5b4646;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
