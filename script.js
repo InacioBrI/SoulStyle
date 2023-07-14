@@ -71,3 +71,12 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+const bar = document.getElementById('bar');
+const nav = document.getElementById('navbar');
+
+if(bar) {
+    bar.addEventListener('click', () => {
+        nav.classList.add('active')
+    })
+}
