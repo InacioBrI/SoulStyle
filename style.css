@@ -683,7 +683,7 @@ footer .col{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
 }
 
 footer .logo{
@@ -701,7 +701,7 @@ footer p{
 }
 
 footer a{
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
     color: #222;
     margin-bottom: 0px;
