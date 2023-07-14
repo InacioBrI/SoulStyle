@@ -691,24 +691,30 @@ footer .logo{
 }
 
 footer h4{
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 0px;
 }
 
+footer .h4s{
+    font-size: 22px;
+    padding-bottom: 0px;
+    color: #810808;
+}
+
 footer p{
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 0 10px 0;
 }
 
 footer a{
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: #222;
     margin-bottom: 0px;
 }
 
 footer .follow{
-    margin-top: 20px
+    margin-top: 0%
 }
 
 footer .follow i{
@@ -717,6 +723,28 @@ footer .follow i{
     cursor: pointer;
 }
 
+footer .icon{
+    cursor: pointer;
+}
+
+footer .install .row img{
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer .install img{
+    margin: 10px 0 10px 0;
+}
+
+footer .icon .follow i:hover,
+footer a:hover{
+    color: darkred;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
