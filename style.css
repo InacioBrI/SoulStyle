@@ -430,7 +430,7 @@ body{
 
 
 #banner{
-background-image: url("Banner-Cmisa.png");
+background-image: url("/img/banners/Banner-Cmisa.png");
 display: flex;
 justify-content: center;
 align-items: center;
@@ -449,7 +449,7 @@ background-position: center;
 
 
 #sm-banner .banner-box{
-background-image: url("Banner-feminino.png");
+background-image: url("/img/banners/Banner-feminino.png");
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -464,7 +464,7 @@ border-radius: 15px;
 }
 
 #sm-banner .banner-box2{
-    background-image: url("Banner-Masculino.png");
+    background-image: url("/img/banners/Banner-Masculino.png");
 }
 
 #sm-banner h4{
@@ -505,7 +505,7 @@ button.white{
 }
 
 #banner3 .banner-box{
-    background-image: url("Banner-feminino.png");
+    background-image: url("/img/banners/Banner-feminino.png");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -540,16 +540,16 @@ button.white{
 }
 
 #banner3 .banner-box2{
-    background-image: url("Banner-feminino.png");
+    background-image: url("/img/banners/Banner-feminino.png");
 }
 
 #banner3 .banner-box3{
-    background-image: url("Banner-feminino.png");
+    background-image: url("/img/banners/Banner-feminino.png");
 }
 
 
 #banner{
-    background-image: url("Banner-Cmisa.png");
+    background-image: url("/img/banners/Banner-Cmisa.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,7 +568,7 @@ button.white{
     
     
     #pm-banner .banner-box{
-    background-image: url("acessorios-banner.png");
+    background-image: url("/img/banners/acessorios-banner.png");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -583,7 +583,7 @@ button.white{
     }
     
     #pm-banner .banner-box2{
-        background-image: url("moveis-banner.png");
+        background-image: url("/img/banners/moveis-banner.png");
     }
     
     #pm-banner h4{
@@ -628,7 +628,7 @@ button.white{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("banner-newlatter.png");
+    background-image: url("/img/banners/banner-newlatter.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #260606;
@@ -865,3 +865,122 @@ footer .copyright{
         padding-left: 20px;
     }
 }
+
+
+.wrapper {
+    display: flex;
+    max-width: 1500px;
+    position: relative;
+    padding: 50px 50px; /* Reduzi o padding para melhor ajuste em telas menores */
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background: #260606;
+  }
+  
+  .wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #ffffff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    z-index: 10; /* Garante que os botões fiquem sobre as imagens */
+  }
+  
+  .wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+  }
+  
+  .wrapper i:hover {
+    background: #f2f2f2;
+  }
+  
+  .wrapper i:first-child {
+    left: 20px; /* Ajustado para telas menores */
+  }
+  
+  .wrapper i:last-child {
+    right: 20px; /* Ajustado para telas menores */
+  }
+  
+  .wrapper .carousel {
+    font-size: 0;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  
+  .carousel.dragging img {
+    pointer-events: none;
+  }
+  
+  .carousel img {
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3); /* Exibe 3 imagens em telas maiores */
+  }
+  
+  .carousel img:first-child {
+    margin-left: 0;
+  }
+  
+  /* Responsividade para tablets */
+  @media (max-width: 768px) {
+    .wrapper {
+      padding: 30px 20px; /* Ajuste do padding para telas menores */
+    }
+  
+    .carousel img {
+      width: calc(100% / 2); /* Exibe 2 imagens em tablets */
+    }
+  
+    .wrapper i {
+      height: 40px;
+      width: 40px;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Responsividade para celulares */
+  @media (max-width: 480px) {
+    .wrapper {
+      padding: 20px 10px; /* Mais compacto em celulares */
+    }
+  
+    .carousel img {
+      width: 100%; /* Exibe 1 imagem por vez em celulares */
+      height: 280px; /* Ajusta a altura para telas menores */
+    }
+  
+    .wrapper i {
+      height: 35px;
+      width: 35px;
+      font-size: 0.9rem;
+    }
+  
+    .wrapper i:first-child {
+      left: 10px;
+    }
+  
+    .wrapper i:last-child {
+      right: 10px;
+    }
+  }
+  
+
